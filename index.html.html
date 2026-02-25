@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranking das Minhas Séries</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #141414;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: #000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: #1f1f1f;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+    transition: 0.3s;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+.ranking {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #000;
+    font-size: 14px;
+    color: #bbb;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Ranking de Séries Favoritas</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <div class="ranking">#1</div>
+        <img src="https://image.tmdb.org/t/p/w500/7PRddO7z7mcPi21nZTCMGShAyy1.jpg" alt="Black Mirror">
+        <div class="card-content">
+            <h2>Black Mirror</h2>
+            <p>Série antológica que explora os impactos sombrios da tecnologia na sociedade moderna.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#2</div>
+        <img src="https://image.tmdb.org/t/p/w500/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg" alt="Dark">
+        <div class="card-content">
+            <h2>Dark</h2>
+            <p>Thriller alemão que mistura viagem no tempo, mistério e drama familiar de forma complexa e envolvente.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#3</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvXCrrAZXpx8oWa6c6oIwVVkZg3LEoAZ54iA&s" alt="Heated Rivalry">
+        <div class="card-content">
+            <h2>Heated Rivalry</h2>
+            <p>História intensa sobre rivalidade, paixão e sentimentos que surgem onde menos se espera.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#4</div>
+        <img src="https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg" alt="The Office">
+        <div class="card-content">
+            <h2>The Office</h2>
+            <p>Comédia em formato de falso documentário sobre o cotidiano nada normal de um escritório.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#5</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH1nsoeWjPOWJAxt0h-F-yHCsjIS1EK8q8Og&s" alt="Ruptura">
+        <div class="card-content">
+            <h2>Ruptura</h2>
+            <p>Funcionários passam por um procedimento que separa memórias pessoais e profissionais, revelando segredos inquietantes.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#6</div>
+        <img src="https://image.tmdb.org/t/p/w500/f496cm9enuEsZkSPzCwnTESEK5s.jpg" alt="Friends">
+        <div class="card-content">
+            <h2>Friends</h2>
+            <p>Seis amigos vivem aventuras, romances e situações engraçadas em Nova York.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#7</div>
+        <img src="https://img.elo7.com.br/product/zoom/26B138F/big-poster-serie-south-park-lo01-tamanho-90x60-cm-serie.jpg" alt="South Park">
+        <div class="card-content">
+            <h2>South Park</h2>
+            <p>Animação satírica que critica política, cultura pop e acontecimentos atuais com humor ácido.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#8</div>
+        <img src="https://image.tmdb.org/t/p/w500/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg" alt="Euphoria">
+        <div class="card-content">
+            <h2>Euphoria</h2>
+            <p>Drama intenso sobre juventude, identidade, vícios e relacionamentos na era digital.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#9</div>
+        <img src="https://image.tmdb.org/t/p/w500/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg" alt="Rick e Morty">
+        <div class="card-content">
+            <h2>Rick e Morty</h2>
+            <p>Aventura animada de ficção científica que acompanha um cientista genial e seu neto em viagens interdimensionais.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="ranking">#10</div>
+        <img src="https://m.media-amazon.com/images/M/MV5BZGQxNWVmOWYtODIzZi00ZTg1LTlkODUtNjg0ZTQyZGI5NzlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="A Sete Palmos">
+        <div class="card-content">
+            <h2>A Sete Palmos</h2>
+            <p>Drama profundo sobre uma família que administra uma funerária e lida com questões existenciais.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+Projeto desenvolvido para a disciplina de Front End do curso de graduação da Unicesumar - 2026.
+</footer>
+
+</body>
+</html>
