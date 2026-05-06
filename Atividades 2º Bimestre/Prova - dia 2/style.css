@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #001f5b, #003f8a);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    width: 340px;
+    min-height: 220px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    transition: all 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #ffdf00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    color: #333;
+}
+
+details {
+    margin-top: 12px;
+    color: #002776;
+    font-weight: 600;
+}
+
+summary {
+    cursor: pointer;
+}
+
+.botao-area {
+    text-align: center;
+    margin: 25px;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #003f8a, #001f5b);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ffdf00, #003f8a);
+    color: #001f5b;
+    transform: scale(1.03);
+}
