@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #009c3b, #ffdf00);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #002776;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffdf00;
+}
+
+.secao {
+    background-color: #ffffff;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.secao:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #002776;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 17px;
+    color: #444;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.botao {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #002776, #009c3b);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #009c3b, #ffdf00);
+    color: #002776;
+    transform: scale(1.05);
+}
+
+#resultado img {
+    display: block;
+    margin: 25px auto;
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
